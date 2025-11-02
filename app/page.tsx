@@ -1,6 +1,5 @@
 export default function HomePage() {
   return (
-    // HOME PAGE
     <div>
       {/* NAVBAR */}
       <nav className="justify-between flex p-5 align-items-center display-flex">
@@ -21,25 +20,5 @@ export default function HomePage() {
         <h2>LEARN, SHARE, AND BUILD TOGETHER</h2>
       </section>
     </div>
-    // HOME PAGE END
-
-
-
-    // MEET OUR TEAM
-
-    // MEET OUR TEAM END
-
-
-
-    // OUR MOMENTS
-
-    // OUR MOMENTS
-
-
-
-
-    // OUR PROGRAMS
-
-    // OUR PROGRAMS
   );
 }

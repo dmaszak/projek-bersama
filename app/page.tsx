@@ -12,5 +12,11 @@ export default function HomePage() {
         <span>BOOKTRIP</span>
       </header>
     </main>
+
+
+
+//// Meet our team ////
+
+
   );
 }

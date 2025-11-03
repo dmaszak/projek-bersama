@@ -19,7 +19,7 @@ export default function HomePage() {
 
       {/* HERO SECTION */}
       <section className="text-center mt-10">
-        <p className="text-gray-500 tracking-wide">WELCOME TO WEBSITE GENG CENTIL</p>
+        <p className="text-gray-500">WELCOME TO WEBSITE GENG CENTIL</p>
         <h2 className="text-3xl font-bold mt-2">
           LEARN, SHARE, AND BUILD TOGETHER
         </h2>

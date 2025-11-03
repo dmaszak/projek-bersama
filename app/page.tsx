@@ -18,28 +18,10 @@ export default function HomePage() {
 
       {/* HERO SECTION */}
       <section className="text-center mt-10">
-        <p className="text-gray-500 tracking-wide">WELCOME TO WEBSITE GENG CENTIL</p>
+        <p className="text-gray-500">WELCOME TO WEBSITE GENG CENTIL</p>
         <h2 className="text-3xl font-bold mt-2">
           LEARN, SHARE, AND BUILD TOGETHER
         </h2>
-      </section>
-
-      {/* MEET OUR TEAM */}
-      <section className="mt-20 text-center">
-        <h3 className="text-2xl font-semibold mb-4">Meet Our Team</h3>
-        <p className="text-gray-600 text-sm">Coming soon...</p>
-      </section>
-
-      {/* OUR MOMENTS */}
-      <section className="mt-20 text-center">
-        <h3 className="text-2xl font-semibold mb-4">Our Moments</h3>
-        <p className="text-gray-600 text-sm">Coming soon...</p>
-      </section>
-
-      {/* OUR PROGRAMS */}
-      <section className="mt-20 text-center mb-20">
-        <h3 className="text-2xl font-semibold mb-4">Our Programs</h3>
-        <p className="text-gray-600 text-sm">Coming soon...</p>
       </section>
     </div>
   );

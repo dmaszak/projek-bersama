@@ -31,3 +31,11 @@ body {
     "M 0 50 Q 50 0 150 0 L 100% 0 Q 100% 100% 100% 100% L 0 100% Z"
   );
 }
+
+.custom-card {
+  clip-path: path(
+    "M 0 30 Q 40 0 120 0 L 100% 0 L 100% 100% L 0 100% Q 40 80 0 70 Z"
+  );
+  border-radius: 30px;
+}
+

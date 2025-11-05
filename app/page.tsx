@@ -282,7 +282,7 @@ export default function HomePage() {
       {/* Logo & Brand */}
       <div className="flex flex-col items-center justify-center space-y-4">
         <h1 className="text-2xl font-bold tracking-wide">
-          <span className="bg-white text-[#6a11cb] rounded-full px-2 py-1 font-bold">W</span> WAVE
+          <span className="bg-white text-[#6a11cb] rounded-full px-2 py-1 font-bold">C</span> Centil
         </h1>
 
         {/* Subtext */}
@@ -312,9 +312,9 @@ export default function HomePage() {
 
       {/* Divider */}
       <div className="w-3/4 mx-auto border-t border-white/20 mt-8 pt-4 text-sm text-white/70">
-        Copyright © 2019{" "}
+        Copyright © 2025{" "}
         <span className="font-semibold text-white hover:underline cursor-pointer">
-          DroitThemes
+          We are Family
         </span>{" "}
         | All rights reserved
       </div>

@@ -35,7 +35,7 @@ export default function OurMoments() {
 
           <SwiperSlide>
             <img
-              src="/Centil gunkid.svg"
+              src="/Yazid Ardani.svg"
               alt="Foto 2"
               className="w-full h-[400px] object-cover rounded-2xl"
             />
@@ -43,7 +43,7 @@ export default function OurMoments() {
 
           <SwiperSlide>
             <img
-              src="/Centil makrab.svg"
+              src="/Dimas Zakaria 1.svg"
               alt="Foto 3"
               className="w-full h-[400px] object-cover rounded-2xl"
             />

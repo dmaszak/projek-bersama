@@ -58,7 +58,7 @@ export default function AboutPage() {
           {/* Fajrul */}
           <div className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <Image
-              src="/FAJRUL FALAKHIL MUJADDID 1.svg"
+              src="/FAJRUL FALAKHIL MUJADDID 1 (2).svg"
               alt="Fajrul Falakhil"
               width={250}
               height={250}
@@ -85,7 +85,7 @@ export default function AboutPage() {
             />
             <div className="p-4 text-center">
               <h5 className="text-md font-semibold bg-sky-700 text-white py-2 px-3 rounded-full inline-block">
-                Agil Pratama
+                M.Agil Rifai
               </h5>
               <p className="text-gray-500 text-sm mt-2">Frontend Developer</p>
             </div>
@@ -94,7 +94,7 @@ export default function AboutPage() {
           {/* Asyifa */}
           <div className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <Image
-              src="/Asyifa.svg"
+              src="/image 8 (1).svg"
               alt="Asyifa"
               width={250}
               height={250}
@@ -111,7 +111,7 @@ export default function AboutPage() {
           {/* Yazid */}
           <div className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <Image
-              src="/Yazid Ardani.svg"
+              src="/image 6 (1).svg"
               alt="Yazid"
               width={250}
               height={250}
@@ -129,7 +129,7 @@ export default function AboutPage() {
           {/* Ziza */}
           <div className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <Image
-              src="/ziza comell.svg"
+              src="/image 4 (1).svg"
               alt="Ziza"
               width={250}
               height={250}

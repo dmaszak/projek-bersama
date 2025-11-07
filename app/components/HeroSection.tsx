@@ -9,7 +9,7 @@ export default function HomePage() {
 
                     {/* Background Image */}
                     <Image
-                        src="/centiill.svg"
+                        src="/centiill (1) 1.svg"
                         alt="Geng Centil"
                         fill
                         className="object-cover"

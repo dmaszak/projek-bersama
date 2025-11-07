@@ -1,9 +1,13 @@
-import MeetOurTeam from "./components/about";
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import OurMoments from './components/OurMoments';
 
-export default function AboutPage() {
-  return (
-    <main className="min-h-screen bg-gray-50 p-10">
-      <MeetOurTeam />
-    </main>
-  );
+export default function Home() {
+    return (
+        <div>
+            <Navbar />
+            <HeroSection />
+            <OurMoments />
+        </div>
+    );
 }

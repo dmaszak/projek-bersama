@@ -1,19 +1,9 @@
-"use client";
-
 import Image from "next/image";
 import Navbar from "./components/Navbar";
-import heroImg from "../public/centiill (1) 1.svg";
+import heroImg from "../public/centiill.svg";
 import cipaImg from "../public/Asyifa.svg";
 import dimasImg from "../public/Dimas Zakaria 1.svg";
 import zizaImg from "../public/ziza comell.svg";
-import { FaFacebookF, FaTwitter, FaGooglePlusG, FaDribbble } from "react-icons/fa";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
 
 export default function HomePage() {
   return (
@@ -37,7 +27,7 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-5xl font-bold leading-tight mt-3">
               LEARN, SHARE, <br /> AND BUILD <br /> TOGETHER
             </h2>
-
+            
             <div className="flex items-center gap-3 mt-10">
               {/* Tombol About We */}
               <button className="bg-sky-700 hover:bg-sky-800 text-white px-6 py-2 rounded-full transition">
@@ -103,7 +93,7 @@ export default function HomePage() {
               className="object-cover w-full h-64"
             />
             <div className="p-4 text-center">
-              <h5 className="text-md font-semibold bg-sky-700 text-white py-2 px-3 rounded-full inline-block">Muhammad Raihan</h5>
+              <h5 className="text-md font-semibold bg-blue-600 text-white py-2 px-3 rounded-full inline-block">Muhammad Raihan</h5>
               <p className="text-gray-500 text-sm mt-2">Fullstack Developer</p>
             </div>
           </div>
@@ -117,7 +107,7 @@ export default function HomePage() {
               className="object-cover w-full h-64"
             />
             <div className="p-4 text-center">
-              <h5 className="text-md font-semibold bg-sky-700 text-white py-2 px-3 rounded-full inline-block">Dimas Zakaria</h5>
+              <h5 className="text-md font-semibold bg-blue-600 text-white py-2 px-3 rounded-full inline-block">Dimas Zakaria</h5>
               <p className="text-gray-500 text-sm mt-2">Frontend Developer</p>
             </div>
           </div>
@@ -131,7 +121,7 @@ export default function HomePage() {
               className="object-cover w-full h-64"
             />
             <div className="p-4 text-center">
-              <h5 className="text-md font-semibold bg-sky-700 text-white py-2 px-3 rounded-full inline-block">Fajrul Falakhil</h5>
+              <h5 className="text-md font-semibold bg-blue-600 text-white py-2 px-3 rounded-full inline-block">Fajrul Falakhil</h5>
               <p className="text-gray-500 text-sm mt-2">Backend Developer</p>
             </div>
           </div>
@@ -149,224 +139,30 @@ export default function HomePage() {
                 “When You Learn To Code, You Learn To Create.” — Barack Obama
               </p>
             </div>
-            <button className="mt-6 bg-sky-700 text-white text-sm font-semibold py-2 rounded-md hover:bg-blue-700 transition">
+            <button className="mt-6 bg-blue-600 text-white text-sm font-semibold py-2 rounded-md hover:bg-blue-700 transition">
               Community
             </button>
           </div>
           {/*agil*/}
-          <div className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <Image
-              src="/Agil rifai 1.svg"
-              alt="Agil"
-              width={250}
-              height={250}
-              className="object-cover w-full h-64"
-            />
-            <div className="p-4 text-center">
-              <h5 className="text-md font-semibold bg-sky-700 text-white py-2 px-3 rounded-full inline-block">Agil Pratama</h5>
-              <p className="text-gray-500 text-sm mt-2">Frontend Developer</p>
-            </div>
-          </div>
-          <div className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <Image
-              src="/Asyifa.svg"
-              alt="Cipa"
-              width={250}
-              height={250}
-              className="object-cover w-full h-64"
-            />
-            <div className="p-4 text-center">
-              <h5 className="text-md font-semibold bg-sky-700 text-white py-2 px-3 rounded-full inline-block">Asyifa N.R</h5>
-              <p className="text-gray-500 text-sm mt-2">Backend Developer</p>
-            </div>
-          </div>
-          <div className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <Image
-              src="/Yazid Ardani.svg"
-              alt="Yazid"
-              width={250}
-              height={250}
-              className="object-cover w-full h-64"
-            />
-            <div className="p-4 text-center">
-              <h5 className="text-md font-semibold bg-sky-700 text-white py-2 px-3 rounded-full inline-block">Yazid Ardani</h5>
-              <p className="text-gray-500 text-sm mt-2">Backende Developer</p>
-            </div>
-          </div>
-          <div className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <Image
-              src="/ziza comell.svg"
-              alt="Ziza"
-              width={250}
-              height={250}
-              className="object-cover w-full h-64"
-            />
-            <div className="p-4 text-center">
-              <h5 className="text-md font-semibold bg-sky-700 text-white py-2 px-3 rounded-full inline-block">Nur Ngazizah A</h5>
-              <p className="text-gray-500 text-sm mt-2">Frontend Developer</p>
-            </div>
-          </div>
+
+
 
 
         </div>
-
 
       </section>
 
       {/* OUR MOMENTS */}
       <section className="mt-20 text-center">
         <h3 className="text-2xl font-semibold mb-4">Our Moments</h3>
-        <div className="w-25 h-1 bg-gray-500 mx-auto mt-6 rounded-full shadow"></div>
+        <p className="text-gray-600 text-sm">Coming soon...</p>
       </section>
-      <div className="w-full max-w-3xl mx-auto mt-10">
-
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={30}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 2500 }}
-          loop={true}
-          className="rounded-2xl shadow-md"
-        >
-          <SwiperSlide>
-            <img
-              src="/centiill (1) 1.svg"
-              alt="Foto 1"
-              className="w-full h-[400px] object-cover rounded-2xl"
-            />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img
-              src="/Centil gunkid.svg"
-              alt="Foto 2"
-              className="w-full h-[400px] object-cover rounded-2xl"
-            />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img
-              src="/Centil makrab.svg"
-              alt="Foto 3"
-              className="w-full h-[400px] object-cover rounded-2xl"
-            />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-
 
       {/* OUR PROGRAMS */}
       <section className="mt-20 text-center mb-20">
         <h3 className="text-2xl font-semibold mb-4">Our Programs</h3>
-        <div className="w-25 h-1 bg-gray-500 mx-auto mt-6 rounded-full shadow"> </div>
-        <section className="flex flex-wrap justify-center gap-6 py-10 bg-gray-50">
-          {/* Card 1 */}
-          <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all w-80 overflow-hidden">
-            <div className="relative w-full h-48">
-              <Image
-                src="/WhatsApp Image 2025-10-29 at 22.28.29_74223dc7 4.svg"
-                alt="Tim Program"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="p-6 text-center">
-              <h2 className="text-xl font-semibold mb-2">Tim Program</h2>
-              <p className="text-gray-700 mb-6">
-                Make A Schedule Once A Week To Gather In One Place To Study And
-                Exchange Ideas
-              </p>
-              <button className="bg-black text-white px-5 py-2 rounded-full font-medium hover:bg-gray-800">
-                Learn More
-              </button>
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all w-80 overflow-hidden">
-            <div className="relative w-full h-48">
-              <Image
-                src="/Centil makrab.svg"
-                alt="Camus Centil"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="p-6 text-center">
-              <h2 className="text-xl font-semibold mb-2">Camus Centil</h2>
-              <p className="text-gray-700 mb-6">Ongoing</p>
-              <button className="bg-black text-white px-5 py-2 rounded-full font-medium hover:bg-gray-800">
-                Learn More
-              </button>
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all w-80 overflow-hidden">
-            <div className="relative w-full h-48">
-              <Image
-                src="Centiill (1) 1.svg"
-                alt="Slebew"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="p-6 text-center">
-              <h2 className="text-xl font-semibold mb-2">Slebew</h2>
-              <p className="text-gray-700 mb-6">&nbsp;</p>
-              <button className="bg-black text-white px-5 py-2 rounded-full font-medium hover:bg-gray-800">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </section>
+        <p className="text-gray-600 text-sm">Coming soon...</p>
       </section>
-      {/* FOOTER */}
-      <footer className=" bg-sky-700 text-white text-center py-12 relative overflow-hidden">
-        {/* Logo & Brand */}
-        <div className="flex flex-col items-center justify-center space-y-4">
-          <h1 className="text-2xl font-bold tracking-wide">
-            <span className="bg-white text-[#6a11cb] rounded-full px-2 py-1 font-bold">C</span> Centil
-          </h1>
-
-          {/* Subtext */}
-          <p className="text-white/80">
-            Have a project in mind?{" "}
-            <span className="font-semibold underline cursor-pointer hover:text-white">
-              Lets Discuss
-            </span>
-          </p>
-
-          {/* Social Icons */}
-          <div className="flex space-x-5 text-xl mt-3">
-            <a href="#" className="hover:text-gray-200 transition">
-              <FaGooglePlusG />
-            </a>
-            <a href="#" className="hover:text-gray-200 transition">
-              <FaDribbble />
-            </a>
-            <a href="#" className="hover:text-gray-200 transition">
-              <FaFacebookF />
-            </a>
-            <a href="#" className="hover:text-gray-200 transition">
-              <FaTwitter />
-            </a>
-          </div>
-        </div>
-
-        {/* Divider */}
-        <div className="w-3/4 mx-auto border-t border-white/20 mt-8 pt-4 text-sm text-white/70">
-          Copyright © 2025{" "}
-          <span className="font-semibold text-white hover:underline cursor-pointer">
-            We are Family
-          </span>{" "}
-          | All rights reserved
-        </div>
-      </footer>
-
-
     </div>
   );
 }

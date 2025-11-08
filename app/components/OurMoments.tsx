@@ -13,7 +13,7 @@ export default function OurMoments() {
         <h3 className="text-2xl font-semibold mb-4">Our Moments</h3>
         <div className="w-25 h-1 bg-gray-500 mx-auto mt-6 rounded-full shadow"></div>
       </section>
-      <div className="w-full max-w-3xl mx-auto mt-10">
+      <div className="w-full max-w-3xl mx-auto mt-10 mb-30">
 
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
